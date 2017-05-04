@@ -1,0 +1,9 @@
+modulemajority3 (x1, x2, x3, f);
+inputx1, x2, x3;
+outputf;
+wire G, H, J;
+assignG = X1 & X2;
+assignH = X1 & X3;
+assignJ = X2 & X3;
+assignf = G| H | J;
+endmodule
