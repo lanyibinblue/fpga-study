@@ -1,0 +1,10 @@
+|week1
+x1 => G.IN0
+x1 => H.IN0
+x2 => G.IN1
+x2 => J.IN0
+x3 => H.IN1
+x3 => J.IN1
+f <= f.DB_MAX_OUTPUT_PORT_TYPE
+
+
